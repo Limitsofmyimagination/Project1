@@ -133,7 +133,7 @@ public class AddEmployeeController implements Initializable  {
  JOptionPane.showMessageDialog(frame,"NEW employee has  been added ");
 }
 catch(Exception e) {
-  JOptionPane.showMessageDialog(frame,e+"employees has not been created cauz");
+  JOptionPane.showMessageDialog(frame,e+"Employee could not be added");
 }
              System.out.println(u1+u2+"---------------------------------------------------------------------------------------------------");
          }
