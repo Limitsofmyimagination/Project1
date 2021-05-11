@@ -130,7 +130,7 @@ public class AddEmployeeController implements Initializable  {
         
              try {
  ((JpaEmployeeDAO)aDAO).saveUser(dew);
- JOptionPane.showMessageDialog(frame,"employees has  been created ");
+ JOptionPane.showMessageDialog(frame,"NEW employee has  been added ");
 }
 catch(Exception e) {
   JOptionPane.showMessageDialog(frame,e+"employees has not been created cauz");
